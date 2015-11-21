@@ -134,7 +134,10 @@
 #elif defined(__AVR_ATmega1281__) || defined(__AVR_ATmega2561__) || defined(__AVR_ATmega2560__) || defined(__AVR_ATmega1280__) 
 
  // Arduino Mega, ADK, etc.
-
+ //modify by tony,with my shield board,the pin changed from PORTB - > PORTE
+    //7 6 5 4 3 2 1 0
+    //H4H3B7G5B5B4H6H5
+    //H4H3E3G5E5E4H6H5
  #ifdef USE_ADAFRUIT_SHIELD_PINOUT
 
   #define RD_PORT PORTF
